@@ -10,7 +10,7 @@ func main(){
 	log.SetPrefix("beginning: ")
 	log.SetFlags(0)
 
-	msgf, err:= beginning.Hello("")
+	msgf, err:= beginning.Hello("Diego")
 	if err !=nil {
 		log.Fatal(err)
 	}
